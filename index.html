@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spil</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="stylesheet_2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">The Game</a></li>
+                <li><a href="idea.html">The Idea</a></li>
+                <li><a href="assets.html">Asset List</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="screen">
+        <div id="game">
+            <div id="game_background">
+
+            </div>
+
+            <div id="game_elements">
+                <div id="panda_container1">
+                    <div id="panda_sprite1">
+                    </div>
+                </div>
+                <div id="panda_container2">
+                    <div id="panda_sprite2">
+                    </div>
+                </div>
+                <div id="panda_container3">
+                    <div id="panda_sprite3">
+
+                    </div>
+
+                </div>
+
+
+                <div id="poop_container1">
+                    <div id="poop_sprite1">
+                    </div>
+                </div>
+                <div id="poop_container2">
+                    <div id="poop_sprite2">
+                    </div>
+
+                </div>
+                <div id="poop_container3">
+                    <div id="poop_sprite3">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div id="game_foreground">
+                <div id="foreground_1">
+                    <img src="assets/img/game_forgrund1.svg" alt="foregrund1">
+                </div>
+                <div id="foreground_2">
+                    <img src="assets/img/game_forgrund2.svg" alt="foregrund2">
+
+                </div>
+                <div id="foregrund_3">
+
+                    <img src="assets/img/foregrund_3_2svg.svg" alt="foregrund3">
+
+                </div>
+            </div>
+            <div id="game_ui">
+                <div id="score_board_container">
+                    <div id="score_board_sprite"></div>
+                </div>
+                <div id="score_board_number"></div>
+                <div id="energy_board">
+                    <div id="liv1"><img src="assets/img/ui_liv.svg" alt="hammer"></div>
+                    <div id="liv2"><img src="assets/img/ui_liv.svg" alt="hammer"></div>
+                    <div id="liv3"><img src="assets/img/ui_liv.svg" alt="hammer"></div>
+                </div>
+
+                <div id="time_board_container">
+                    <div id="time_board_sprite"></div>
+                </div>
+            </div>
+
+        </div>
+        <audio src="sound/fart.mp3" id="sound_fart"></audio>
+        <audio src="sound/punch2.mp3" id="sound_punch"></audio>
+        <audio src="sound/Cyborg%20Ninja.mp3" id="sound_ninja"></audio>
+
+        <div id="sound_on_container">
+            <div id="sound_on"></div>
+        </div>
+        <div id="sound_off_container">
+            <div id="sound_off"></div>
+        </div>
+        <div id="start">
+            <div id="play"></div>
+        </div>
+        <div id="info_screen">
+            <div id="ready"></div>
+            <div id="not_ready"></div>
+        </div>
+        <div id="game_over">
+            <div id="restart1"></div>
+            <div id="home1"></div>
+            <div id="gameover_text1">
+                Are you even trying?
+            </div>
+        </div>
+        <div id="level_complete">
+            <div id="restart2"></div>
+            <div id="home2"></div>
+            <div id="level_complete_text1">
+                You sure gave those pandas a good old wacc!
+            </div>
+            <div id="level_complete_text2">
+                You got
+            </div>
+            <div id="level_complete_points">
+            </div>
+            <div id="level_complete_text3">
+                points
+            </div>
+        </div>
+
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
